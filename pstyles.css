@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  background-color: #eee8ce;
+  color: #a19a7c;
+}
+
+h2 {
+  color: hsl(49, 16.4%, 35.9%);
+}

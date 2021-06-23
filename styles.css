@@ -1,20 +1,35 @@
 * {
   box-sizing: border-box;
-  background-color: #EEE8CE;
-  color: #A19A7C
+  background-color: #eee8ce;
+  color: #a19a7c;
 }
 
 h2 {
   color: hsl(49, 16.4%, 35.9%);
 }
 
+/* div > span will only effect the first child and no other decendents */
 div > span {
-  background-color: #8C74A1;
+  background-color: #8c74a1;
 }
 
-span{
-  background-color: #CECEED;
+span {
+  background-color: #ceceed;
 }
 
+/* ~ is the general sibling selector */
 
+/* h2 ~ p {
+  background-color: #CEDFED;  
+} */
 
+/* ~ only selects the siblings that come after, cascading - remember?  ;) */
+
+/* div ~ p {
+  background-color: #CEDFED;
+} */
+
+/* + selects the very next sibling, in this case there are two divs and the + selected the p tags that were right next to the div */
+div + p {
+  background-color: #cedfed;
+}
