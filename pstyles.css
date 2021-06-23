@@ -18,6 +18,10 @@ h2 {
 p:not(.p3):not(.p2) {
   background-color: #CEDFED;
 }
-input:not(:checked){
+
+/*  The * will find any element with those characters "fla" in this case */
+ /* The ^ will find any element that starts with certain characters */
+ /* The $ will find the elements that end with the certain character */
+input[data-margin*="fla"] {
   margin: 50px;
 }
