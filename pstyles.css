@@ -7,3 +7,17 @@
 h2 {
   color: hsl(49, 16.4%, 35.9%);
 }
+
+/* not selector,  */
+/* p:not(.p3) {
+  background-color: #CEDFED;
+} */
+
+/* these can be combined as well */
+
+p:not(.p3):not(.p2) {
+  background-color: #CEDFED;
+}
+input:not(:checked){
+  margin: 50px;
+}
